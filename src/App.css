@@ -1,0 +1,36 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.search-page, .bookshelf-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.book-search input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.book-card, .bookshelf-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+}
+
+.search-results, .bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
